@@ -25,3 +25,7 @@ Commands use a macro system in `main.rs`. The `commands!` macro generates routin
 ### Authentication
 - Project tokens via `RAILWAY_TOKEN` environment variable
 - User tokens via OAuth flow stored in config directory
+
+### MCP
+- For bugfixes run cargo_check. If that passes, run cargo_test
+- Use the rust-docs tool to verify any external crate syntax before suggesting code
